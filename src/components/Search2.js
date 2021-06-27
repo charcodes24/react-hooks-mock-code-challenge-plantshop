@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Search({ handleSearchChange }) {
+
+  
+  
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
